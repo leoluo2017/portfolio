@@ -8,6 +8,53 @@ body{
   padding: 0;
 }
 
+.logo {
+  vertical-align: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;    /* if you want it vertically middle of the navbar. */
+}
+
+header{
+  /* display:flex;
+  justify-content: flex-start; */
+  background:whitesmoke;
+  border-bottom: 3px solid black;
+}
+
+.nav_links{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-between;
+  text-align: center;
+}
+
+.nav_item a{
+  color: black;
+  text-decoration: none;
+  padding-right: 24px;
+}
+
+.nav_item a:hover, a:focus{
+  color: grey;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+.navigation-bar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+/* nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none; 
+}
 #logo{
   display: block;
   margin-left: auto;
@@ -21,25 +68,13 @@ nav li{
   padding-right:20px;
 }
 
-nav a{
-  color: black;
-  font-weight: bold;
-  text-decoration: none; 
-}
 
 nav a:hover{
   text-decoration: underline;
-}
+} */
 
-nav{
-  padding: 20px 0; 
-  text-align: left;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column: 1/-1;
-  /*Your code here*/
-  /*Span the top row*/
-}
+
+
 
 /* 
 .container{

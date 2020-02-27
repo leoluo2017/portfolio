@@ -3,6 +3,90 @@ html{
 }
 
 body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+nav{
+  width: 100%;
+}
+
+ul{
+  width:80%;
+  margin:0 auto;
+  padding:0;
+  margin-right:40px;
+  text-align: right;
+}
+
+ul li{
+  list-style:none;
+  display:inline-block;
+  padding:50px;
+  
+}
+
+ul li:hover{
+  background:whitesmoke;
+}
+
+ul li a{
+  color:black;
+  text-decoration: none;
+  font-family: fantasy;
+  font-size:20px;
+
+}
+.toggle{
+  width:100%;
+  padding:10px 20px;
+  background:white;
+  text-align:right;
+  box-sizing:border-box;
+  color:black;
+  font-size:30px;
+  display:none
+
+}
+.logo {
+  vertical-align: center;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 45px;    
+}
+.imgitems{
+  display: flex;
+  flex-direction: row;
+
+}
+
+@media(max-width:768px){
+  .toggle{
+    display:block;
+  }
+
+  ul{
+    width: 100%;
+    display:none;
+  }
+
+  ul li{
+    display:block;
+    text-align:center;
+  }
+
+  .active{
+    display:block;
+  }
+
+
+}
+
+
+/* body{
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -14,16 +98,16 @@ body{
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 25px;    /* if you want it vertically middle of the navbar. */
+  margin-left: 25px;    
 }
 
 header{
   /* display:flex;
-  justify-content: flex-start; */
+  justify-content: flex-start; 
   background:whitesmoke;
   border-bottom: 3px solid black;
-}
-
+} */
+/* 
 .nav_links{
   display:flex;
   flex-direction: row;
@@ -48,9 +132,14 @@ header{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:center;
-}
-/* nav a{
+  align-items:center; 
+} */
+
+
+/* 
+stop here
+
+nav a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
@@ -84,8 +173,8 @@ nav a:hover{
   grid-row-gap: 15px;
   align-items: c
 } */
-
-@media all and (min-width: 800px){
+/* 
+@media all and (min-width: 800px){ */
 
   /* .container{
 

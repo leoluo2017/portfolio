@@ -82,6 +82,25 @@ ul li a{
     display:block;
   }
 
+  nav{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    
+
+  }
+
+  .logo{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position:absolute;
+
+    
+  }
+
 
 }
 

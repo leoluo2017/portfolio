@@ -63,6 +63,28 @@ ul li a{
 
 }
 
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 190px;
+}
+.btn {
+  background-color: black;
+  font-family: fantasy;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align:center;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: cadetblue;
+}
+
 @media(max-width:768px){
   .toggle{
     display:block;
@@ -100,6 +122,7 @@ ul li a{
 
     
   }
+  
 
 
 }

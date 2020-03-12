@@ -98,6 +98,8 @@ ul li a{
 .imgitems{
   display: flex;
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -118,9 +120,14 @@ footer{
     display:block;
   }
 
+  .imgitems{
+
+  }
+
   ul{
     width: 100%;
     display:none;
+    text-align:center;
   }
 
   ul li{
@@ -136,9 +143,7 @@ footer{
     display:flex;
     flex-direction:row-reverse;
     align-items:flex-start;
-    
-
-  }
+  } 
 
   .logo{
     width: 45px;

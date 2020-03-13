@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+nav{
+  width: 100%;
+}
+
+ul{
+  width:80%;
+  margin:0 auto;
+  padding:0;
+  margin-right:40px;
+  text-align: right;
+}
+
+ul li{
+  list-style:none;
+  display:inline-block;
+  padding:50px;
+  
+}
+
+ul li:hover{
+  background:whitesmoke;
+}
+
+ul li a{
+  color:black;
+  text-decoration: none;
+  font-family: fantasy;
+  font-size:20px;
+
+}
+.toggle{
+  width:100%;
+  padding:10px 20px;
+  background:white;
+  text-align:right;
+  box-sizing:border-box;
+  color:black;
+  font-size:30px;
+  display:none
+
+}
+.logo {
+  vertical-align: center;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 45px;    
+}
+.imgitems{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+#main{
+  margin-left: 120px;
+  margin-right: 120px;
+  width: 100%;
+  margin-top: 40px;
+  /* background-image: url(../images/clipp.jpg); */
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  /* background-color: black;
+  color: white; */
+  height: 800px;          
+}
+/
+ .skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus{
+  top: 0;
+ }
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    position: absolute;
+    width: 100%;
+    height: 1.5rem;
+}
+@media(max-width:768px){
+  .toggle{
+    display:block;
+  }
+
+  ul{
+    width: 100%;
+    display:none;
+  }
+
+  ul li{
+    display:block;
+    text-align:center;
+  }
+
+  .active{
+    display:block;
+  }
+
+  nav{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    
+
+  }
+
+  .logo{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position:absolute;
+
+    
+  }
+
+
+}
+

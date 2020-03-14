@@ -109,7 +109,7 @@
         height: 120px;
         overflow: hidden;
         font-family: 'Lato', sans-serif;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 35px;
         color: black;
       }
@@ -148,7 +148,7 @@
       }
       .content__container__list {
         margin-top: 0;
-        padding-left: 110px;
+        padding-left: 15px;
         text-align: left;
         list-style: none;
         -webkit-animation-name: change;

@@ -5,7 +5,7 @@ html{
 body{
   margin:0;
   padding:0;
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav{
@@ -67,7 +67,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: fantasy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
   width: 100%;
   height: 1.5rem;
@@ -171,7 +171,12 @@ position:relative;
   }
 
   .active{
-    display:block;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   nav{
@@ -196,10 +201,20 @@ position:relative;
   .project-main{
     justify-content: center;
   }
+
   main{
     margin-left: auto;
     margin-right:auto;
   }
+
+
+
+  /* .nav_links active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  } */
 
 
 }

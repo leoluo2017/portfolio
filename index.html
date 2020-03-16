@@ -8,6 +8,40 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>Leo Luo</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+        #myname {
+          margin:0 auto;
+          margin-top:160px;
+          white-space: nowrap;
+          overflow: hidden;    
+          /* font-family: 'Source Code Pro', monospace;  
+          font-size: 28px; */
+          color: black;
+        
+        }
+
+        /* Animation */
+        #myname {
+          animation: animated-text 2s steps(30,end) 1s 1 normal both;
+        }
+
+        /* text animation */
+
+        @keyframes animated-text{
+          from{width: 0;}
+          to{width: 472px;}
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            #myname {
+              /* Stop the animation */
+              animation: none;
+
+            }
+          }
+        </style>
   </head>
   <body>
   <div class="skip"><a href="#main">Skip to Main Content</a></div>

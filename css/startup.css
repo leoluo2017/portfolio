@@ -89,43 +89,5 @@ footer{
     height: 1.5rem;
 }
 
-@media(max-width:768px){
-  .toggle{
-    display:block;
-  }
-  ul{
-    width: 100%;
-    display:none;
-  }
 
-  ul li{
-    display:block;
-    text-align:center;
-  }
-
-  .active{
-    display:block;
-  }
-
-  nav{
-    display:flex;
-    flex-direction:row-reverse;
-    align-items:flex-start;
-    
-
-  }
-
-  .logo{
-    width: 45px;
-    height: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    position:absolute;
-
-    
-  }
-
-
-}
 

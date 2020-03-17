@@ -131,7 +131,7 @@ footer{
 }
 
 @media(max-width:768px){
-
+  
   .gallery{
     justify-content: center;
   }
@@ -156,7 +156,11 @@ footer{
   }
 
   .active{
-    display:block;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: auto;
   }
 
   nav{
@@ -179,6 +183,18 @@ footer{
 
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .active{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 290px;
+    margin-right: auto;
+  }
+
+}
 
 /* body{
   font-size: 18px;

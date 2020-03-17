@@ -247,7 +247,12 @@
       }
     
       .active{
-        display:block;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 500px;
+        /* margin-right: auto;
+        height:80px; */
       }
     
       nav{
@@ -273,3 +278,15 @@
     }
     
     
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px)  { 
+      .active{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 290px;
+        margin-right: auto;
+      }
+    
+    }

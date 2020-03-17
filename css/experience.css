@@ -170,13 +170,13 @@ position:relative;
     text-align:center;
   }
 
+
   .active{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: auto;
+    margin-left: 90px;
     margin-right: auto;
-
   }
 
   nav{
